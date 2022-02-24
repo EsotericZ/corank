@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS rank_db;
+CREATE DATABASE rank_db;
