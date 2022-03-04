@@ -23,6 +23,14 @@ Player.init(
             allowNull: false,
             unique: true,
         },
+        birthday: {
+            type: DataTypes.DATEONLY,
+            allowNull: false,
+        },
+        gender: {
+            type: DataTypes.STRING,
+            allowNull: false,
+        },
         singleRanking: {
             type: DataTypes.INTEGER,
         },

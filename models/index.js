@@ -11,11 +11,11 @@ Match.belongsTo(Tournament, {
     foreignKey: 'tournamentId',
 });
 
-Match.hasMany(Player, {
+Player.hasMany(Match, {
     foreignKey: 'playerId',
     onDelete: 'CASCADE',
 });
-Player.belongsTo(Match, {
+Match.belongsTo(Player, {
     foreignKey: 'playerId',
 });
 
