@@ -34,7 +34,7 @@ Match.init(
             type: DataTypes.INTEGER,
             allowNull: false,
         },
-        tournamnetId: {
+        tournamentId: {
             type: DataTypes.STRING,
             allowNull: false,
             references: {
