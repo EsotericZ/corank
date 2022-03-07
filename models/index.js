@@ -23,5 +23,5 @@ module.exports = {
     Match,
     Player,
     Tournament,
-    User
+    User,
 };
