@@ -25,7 +25,7 @@ module.exports = {
     },
 
     adminLogin: async (req, res) => {
-        res.render('adminLogin');
+        res.render('adminlogin');
     },
 
     adminPage: async (req, res) => {
@@ -35,7 +35,7 @@ module.exports = {
         if (req.session.user.role == 'user') {
             return res.redirect('/');
         }
-        res.render('adminPage');
+        res.render('adminpage');
     },
 
     renderHome: async (req, res) => {

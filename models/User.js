@@ -1,7 +1,7 @@
 const { Model, DataTypes, UUIDV4 } = require('sequelize');
 const sequelize = require('../config');
 
-class User extends Model {};
+class User extends Model {}
 
 User.init(
     {
@@ -43,7 +43,7 @@ User.init(
         role: {
             type: DataTypes.STRING,
             allowNull: false,
-            defaultValue: 'user',
+            defaultValue: 'player',
         },
     },
     {
