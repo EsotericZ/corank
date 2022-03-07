@@ -18,9 +18,9 @@
   <link href='https://fullcalendar.io/releases/fullcalendar/3.9.0/fullcalendar.print.min.css' rel='stylesheet' media='print' />
   <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"> --}}
   {{!-- CALENDAR STUFF --}} -->
-
-  <link rel="stylesheet" href="/public/css/style.css">
   <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico?">
+  <link rel="stylesheet" href="./public/css/style.css">
+
 </head>
 <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
     <a class="navbar-brand" href="#">CORANK</a>
@@ -31,23 +31,22 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#">Home</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Players
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
+            <a class="dropdown-item" href="#">Singles</a>
+            <a class="dropdown-item" href="#">Doubles</a>
+            <a class="dropdown-item" href="#">Mixed</a>
           </div>
         </li>
       </ul>
-      <form class="form-inline ms-auto my-2 my-lg-0">
-        <input class="form-control ms-auto mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success ms-auto my-2 my-sm-0" type="submit">Search</button>
+      <form class="form-inline ms-auto ">
+        <input class="form-control ms-auto" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success ms-aut0" type="submit">Search</button>
       </form>
     </div>
   </nav>
@@ -58,18 +57,21 @@
         NEWS
       </div>
       <div class="col-4 rightSide">
-        <div class = "events">
+        <div class="events">
          UPCOMING EVENTS            
         </div>
-        <div class = "topPlayers">
+        <div class="topPlayers" id="players">
             TOP PLAYERS           
         </div>
       </div>
     </div>
   </div>    
 
-<div class="container">
+    <div class="container">
     <div class="row">
+        <div class="col-1">
+            
+        </div>
       <div class="col-4 contactForm">
         <label for="exampleFormControlInput1" class="form-label">Email address</label>
         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
@@ -83,4 +85,10 @@
       </div>
     </div>
   </div>   
+  
+  <footer class="footer mt-auto py-3 bg-dark">
+    <div class="container">
+      <span class="text-muted">Footer</span>
+    </div>
+  </footer>
 </body>

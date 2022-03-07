@@ -1,13 +1,18 @@
 .news {
     border: 1px solid black;
     margin-top: 10px;
+    background-color: pink;
 }
 
-.events{
+.events {
     border: 1px solid black;
     margin-top: 10px;
 }
-.topPlayers{
+.topPlayers {
     border: 1px solid black;
     margin-top: 10px;
+    /* background-color: pink; */
+}
+#players {
+    /* background-color: green; */
 }
