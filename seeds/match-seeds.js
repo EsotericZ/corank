@@ -1,4 +1,5 @@
 const { Match } = require('../models');
+const { User } = require('../models');
 
 const matchData = [
     {
