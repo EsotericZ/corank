@@ -22,5 +22,6 @@ Match.belongsTo(Player, {
 module.exports = {
     Match,
     Player,
-    Tournament
+    Tournament,
+    User
 };
