@@ -23,9 +23,5 @@ module.exports = {
     Match,
     Player,
     Tournament,
-<<<<<<< HEAD
-    User
-=======
     User,
->>>>>>> main
 };
